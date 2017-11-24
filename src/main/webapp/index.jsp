@@ -15,6 +15,6 @@
 
     <label for="description">Description</label><textarea name="description"></textarea><br>
 
-    <input type="submit" name="submit">
+    <input type="submit" name="submit" >
 
 </form>
