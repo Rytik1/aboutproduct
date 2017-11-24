@@ -9,7 +9,7 @@
 <script>
     function confirmInput() {
         name = document.forms[0].name.value;
-        alert("Hello " + name + "Запрос отправлен, при желании можете отправть еще один запрос! Ждите обратной связи");
+        alert("Hello " + name + "Request sent, if you want, you can send another request! Wait for feedback ");
     }
 </script>
 
@@ -22,15 +22,15 @@
     <%--<input type=hidden name="retURL" value="//">--%>
 
 
-    <label for="name">Contact Name</label><input id="name" maxlength="80" name="name" size="20" type="text"/><br>
+    <label for="name">Contact Name</label><input id="name" maxlength="80" name="name" size="20" type="text" required/><br>
 
-    <label for="email">Email</label><input id="email" maxlength="80" name="email" size="20" type="text"/><br>
+    <label for="email">Email</label><input id="email" maxlength="80" name="email" size="20" type="text" required/><br>
 
-    <label for="phone">Phone</label><input id="phone" maxlength="40" name="phone" size="20" type="text"/><br>
+    <label for="phone">Phone</label><input id="phone" maxlength="40" name="phone" size="20" type="text" /><br>
 
-    <label for="subject">Subject</label><input id="subject" maxlength="80" name="subject" size="20" type="text"/><br>
+    <label for="subject">Subject</label><input id="subject" maxlength="80" name="subject" size="20" type="text" required/><br>
 
-    <label for="description">Description</label><textarea name="description"></textarea><br>
+    <label for="description">Description</label><textarea name="description" required></textarea><br>
 
     <input type="submit" name="submit">
 
