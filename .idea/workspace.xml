@@ -57,8 +57,8 @@
       <file leaf-file-name="index.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <state relative-caret-position="187">
+              <caret line="101" column="147" lean-forward="false" selection-start-line="101" selection-start-column="147" selection-end-line="101" selection-end-column="147" />
               <folding>
                 <element signature="n#style#0;n#H2#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#0;n#H2#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -140,7 +140,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1696" />
@@ -342,12 +342,12 @@
       <option name="presentableId" value="Default" />
       <updated>1511541000630</updated>
       <workItem from="1511541002380" duration="3121000" />
-      <workItem from="1511595610309" duration="3131000" />
+      <workItem from="1511595610309" duration="3522000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6252000" />
+    <option name="totallyTimeSpent" value="6643000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -359,7 +359,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -520,8 +520,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        <state relative-caret-position="187">
+          <caret line="101" column="147" lean-forward="false" selection-start-line="101" selection-start-column="147" selection-end-line="101" selection-end-column="147" />
           <folding>
             <element signature="n#style#0;n#H2#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#0;n#H2#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />

@@ -31,7 +31,7 @@
     <H2 style="color: #2e6da4">
         <p style="padding-left: 100px">Hello, friend!</p>
         <p style="padding-left: 100px; padding-right: 30px"> If you want to help us make our products and services
-            better, u can fill this form and send your info to our specialist information !
+            better, u can fill this form and send your info to our specialists!
         </p>
     </H2>
 </div>
@@ -99,8 +99,7 @@
 </div>
 <H3 style="color: red">
     <p style="padding-left: 100px; padding-right: 30px">
-        If you click the button and wont get info about succesed sending info to the support, please send info to email below with your infomation!    </p>
-    <p  style="padding-left: 100px; padding-right: 30px; ">
+        If you click the button and wont get info about success sending form to the support, please send info to email below with your information!    <p  style="padding-left: 100px; padding-right: 30px; ">
         supportproduct@z-1oe9aj9rdb02xzujzwq5xadhz3o6eylv6pk7fedzhdqcxmi4eh.7f-3et27uac.ap5.case.salesforce.com</p>
 </h3>
 <script src="resources/js/helper.js"/>
