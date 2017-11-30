@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a6892de6-7a1a-466b-9884-7ad478583c82" name="Default" comment="las commit">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -58,8 +57,8 @@
       <file leaf-file-name="index.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="28" column="57" lean-forward="false" selection-start-line="28" selection-start-column="57" selection-end-line="28" selection-end-column="57" />
+            <state relative-caret-position="212">
+              <caret line="28" column="58" lean-forward="true" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="58" />
               <folding />
             </state>
           </provider>
@@ -337,12 +336,12 @@
       <updated>1511541000630</updated>
       <workItem from="1511541002380" duration="3121000" />
       <workItem from="1511595610309" duration="4119000" />
-      <workItem from="1512064272918" duration="1212000" />
+      <workItem from="1512064272918" duration="1329000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8452000" />
+    <option name="totallyTimeSpent" value="8569000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -557,8 +556,8 @@
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/ee.jsp" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="28" column="57" lean-forward="false" selection-start-line="28" selection-start-column="57" selection-end-line="28" selection-end-column="57" />
+        <state relative-caret-position="212">
+          <caret line="28" column="58" lean-forward="true" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="58" />
           <folding />
         </state>
       </provider>

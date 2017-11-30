@@ -27,7 +27,7 @@
     function check() {
         email = document.getElementById("email").value;
         filter = /[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$/;
-        if (filter.test(email.value))
+        if (filter.test(email ))
         {
             document.getElementById("email").style.border = "3px solid green";
             return true;
