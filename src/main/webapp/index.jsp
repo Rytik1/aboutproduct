@@ -18,6 +18,27 @@
         name = document.forms[0].name.value;
         alert("Hello " + name + "! Request sent, if you want, you can send another request! Wait for feedback ");
     }
+
+    function myFunction() {
+        var x = document.getElementById("mySelect").value;
+        document.getElementById("demo").innerHTML = "You selected: " + x;
+    }
+
+    function check() {
+        email = document.getElementById("email").value;
+        filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+        if (filter.test(email.value))
+        {
+            document.getElementById("email").style.border = "3px solid green";
+            return true;
+        }
+        else
+        {
+            document.getElementById("email").style.border = "3px solid red";
+            return false;
+        }
+    }
+
 </script>
     <%--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">--%>
     <%--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">--%>
@@ -57,7 +78,7 @@
                     <div class="cols-sm-10">
                         <div class="input-group">
                             <span class="input-group-addon"><i class="fa fa-envelope fa" aria-hidden="true"></i></span>
-                            <input class="form-control" id="email" maxlength="80" name="email" size="20" type="text"
+                            <input onchange="check()" class="form-control" id="email" maxlength="80" name="email" size="20" type="text"
                                    required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" placeholder="Example: example@epam.com"/><br>
                         </div>
                     </div>
