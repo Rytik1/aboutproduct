@@ -28,7 +28,7 @@
             email = document.getElementById("email").value;
             filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
             if (filter.test(email)) {
-                document.getElementById("email").style.border = "3px solid green";
+               // document.getElementById("email").style.border = "3px solid green";
                 document.getElementById("output").innerHTML = "Correct Email";
                 document.getElementById("output").style.color="green";
                 return true;
@@ -42,18 +42,7 @@
             }
         }
 
-        function checkName() {
-            email = document.getElementById("email").value;
-            filter =/[a-zA-Z ]{1,40}/;
-            if (!filter.test(email)) {
 
-                document.getElementById("email").style.border = "3px solid red";
-                document.getElementById("output").innerHTML = "Incorrect name, u should use only latin letters!"
-                document.getElementById("output").style.color="red";
-
-                return false;
-            }
-        }
 
     </script>
     <%--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">--%>
