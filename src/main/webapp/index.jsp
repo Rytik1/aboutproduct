@@ -48,7 +48,7 @@
                         <div class="input-group">
                             <span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i></span>
                             <input class="form-control" id="name" maxlength="80" name="name" size="20" type="text"
-                                   required/><br>
+                                   required placeholder="Example: Ivanova Maria"/><br>
                         </div>
                     </div>
                 </div>
