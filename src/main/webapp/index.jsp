@@ -24,7 +24,7 @@
             document.getElementById("demo").innerHTML = "You selected: " + x;
         }
 
-        function check() {
+        function checkEmail() {
             email = document.getElementById("email").value;
             filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
             if (filter.test(email)) {
@@ -36,6 +36,19 @@
             else {
                 document.getElementById("email").style.border = "3px solid red";
                 document.getElementById("output").innerHTML = "Incorrect Email"
+                document.getElementById("output").style.color="red";
+
+                return false;
+            }
+        }
+
+        function checkName() {
+            email = document.getElementById("email").value;
+            filter =/[a-zA-Z ]{1,40}/;
+            if (!filter.test(email)) {
+
+                document.getElementById("email").style.border = "3px solid red";
+                document.getElementById("output").innerHTML = "Incorrect name, u should use only latin letters!"
                 document.getElementById("output").style.color="red";
 
                 return false;
@@ -81,7 +94,7 @@
                     <div class="cols-sm-10">
                         <div class="input-group">
                             <span class="input-group-addon"><i class="fa fa-envelope fa" aria-hidden="true"></i></span>
-                            <input onchange="check()" class="form-control" id="email" maxlength="80" name="email"
+                            <input onchange="checkEmail()" class="form-control" id="email" maxlength="80" name="email"
                                    size="20" type="text"
                                    required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$"
                                    placeholder="Example: example@epam.com"/><br>
