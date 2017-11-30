@@ -26,15 +26,18 @@
 
     function check() {
         email = document.getElementById("email").value;
-        filter = /[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$/;
+        filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
         if (filter.test(email ))
         {
             document.getElementById("email").style.border = "3px solid green";
+            document.getElementById("error email").nodeValue="Correct Email"
             return true;
         }
         else
         {
             document.getElementById("email").style.border = "3px solid red";
+            document.getElementById("error email").nodeValue="Incorrect Email"
+
             return false;
         }
     }
@@ -81,6 +84,7 @@
                             <input onchange="check()" class="form-control" id="email" maxlength="80" name="email" size="20" type="text"
                                    required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" placeholder="Example: example@epam.com"/><br>
                         </div>
+                        <output id="error email" ></output>
                     </div>
                 </div>
                 <div class="form-group">
