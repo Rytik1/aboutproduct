@@ -88,8 +88,7 @@
                         <div class="input-group">
                             <span class="input-group-addon"><i class="	fa fa-commenting-o"
                                                                aria-hidden="true"></i></span>
-                            <textarea class="form-control" name="description" required placeholder="Example: Problem with my TV
-. Bed quality of loud. Model Sumsung g220."></textarea><br>
+                            <textarea class="form-control" name="description" required placeholder="Example: Problem with my TV. Bed quality of loud. Model Sumsung g220."></textarea><br>
                         </div>
                     </div>
                 </div>
