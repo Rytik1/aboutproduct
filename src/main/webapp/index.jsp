@@ -58,7 +58,7 @@
                         <div class="input-group">
                             <span class="input-group-addon"><i class="fa fa-envelope fa" aria-hidden="true"></i></span>
                             <input class="form-control" id="email" maxlength="80" name="email" size="20" type="text"
-                                   required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$"/><br>
+                                   required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" placeholder="Example: example@epam.com"/><br>
                         </div>
                     </div>
                 </div>
@@ -68,7 +68,7 @@
                         <div class="input-group">
                             <span class="input-group-addon"><i class="fa fa-phone" aria-hidden="true"></i></span>
                             <input class="form-control" id="phone" maxlength="40" name="phone" size="20"
-                                   type="text"/><br>
+                                   type="text" placeholder="Exaple: +37529-6025533"/><br>
                         </div>
                     </div>
                 </div>
@@ -78,7 +78,7 @@
                         <div class="input-group">
                             <span class="input-group-addon"><i class="fa fa-users fa" aria-hidden="true"></i></span>
                             <input class="form-control" id="subject" maxlength="80" name="subject" size="20" type="text"
-                                   required/><br>
+                                   required placeholder="Example: problem with TV "/><br>
                         </div>
                     </div>
                 </div>
@@ -88,7 +88,8 @@
                         <div class="input-group">
                             <span class="input-group-addon"><i class="	fa fa-commenting-o"
                                                                aria-hidden="true"></i></span>
-                            <textarea class="form-control" name="description" required></textarea><br>
+                            <textarea class="form-control" name="description" required placeholder="Example: Problem with my TV
+. Bed quality of loud. Model Sumsung g220."></textarea><br>
                         </div>
                     </div>
                 </div>
