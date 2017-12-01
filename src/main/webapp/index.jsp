@@ -33,8 +33,8 @@
                 document.getElementById("output").innerHTML = "Correct Email";
                 document.getElementById("output").style.color="green";
                 $(document).ready(function(){
-                    $("output").ready (function(){
-                        $("output").fadeOut(5000);
+                    $("#output").ready (function(){
+                        $("#output").fadeOut(5000);
                     });
                 });
                 return true;
