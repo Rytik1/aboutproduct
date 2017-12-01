@@ -34,7 +34,7 @@
                 document.getElementById("output").style.color="green";
                 $(document).ready(function(){
                     $("#output").ready (function(){
-                        $("#output").hide(5000);
+                        $("#output").hide(2000);
                      });
                  });
                 return true;
