@@ -34,10 +34,9 @@
                 document.getElementById("output").style.color="green";
                 $(document).ready(function(){
                     $("#output").ready (function(){
-                        $("#output").fadeOut(5000);
+                        $("#output").hide(5000);
                      });
-                    document.getElementById("output").innerHTML = "";
-                });
+                 });
                 return true;
             }
             else {
@@ -46,7 +45,7 @@
                 document.getElementById("output").style.color="red";
                 $(document).ready(function(){
                     $("#output").ready (function(){
-                        $("#output").fadeIn( 1000);
+                        $("#output").show( 2000);
                     });
                 });
                 return false;
