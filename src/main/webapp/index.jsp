@@ -35,6 +35,8 @@
                 $(document).ready(function(){
                     $("#output").ready (function(){
                         $("#output").fadeOut(5000);
+                        document.getElementById("output").innerHTML = "";
+
                     });
                 });
                 return true;
@@ -43,7 +45,11 @@
                 document.getElementById("email").style.border = "3px solid red";
                 document.getElementById("output").innerHTML = "Incorrect Email"
                 document.getElementById("output").style.color="red";
-
+                $(document).ready(function(){
+                    $("#output").ready (function(){
+                        $("#output").fadeIn( 1000);
+                    });
+                });
                 return false;
             }
         }
