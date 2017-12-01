@@ -35,9 +35,8 @@
                 $(document).ready(function(){
                     $("#output").ready (function(){
                         $("#output").fadeOut(5000);
-                        document.getElementById("output").innerHTML = "";
-
-                    });
+                     });
+                    document.getElementById("output").innerHTML = "";
                 });
                 return true;
             }
