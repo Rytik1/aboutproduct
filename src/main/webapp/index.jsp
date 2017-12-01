@@ -34,8 +34,12 @@
                 document.getElementById("output").style.color="green";
                 $(document).ready(function(){
                     $("#output").ready (function(){
+                        $("#output").hide();
+                        $("#output").show(2000);
+
                         $("#output").hide(2000);
-                     });
+
+                    });
                  });
                 return true;
             }
