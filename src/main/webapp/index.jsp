@@ -1,13 +1,14 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
 <html>
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>JS Bin</title>
-</head>
-<head>
+    <title>Support</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
     <link rel="stylesheet" href="resources/css/bootstrap.css"/>
     <link rel="stylesheet" href="style.css">
     <link href='https://fonts.googleapis.com/css?family=Passion+One' rel='stylesheet' type='text/css'>
@@ -31,6 +32,11 @@
                 document.getElementById("email").style.border = "none";
                 document.getElementById("output").innerHTML = "Correct Email";
                 document.getElementById("output").style.color="green";
+                $(document).ready(function(){
+                    $("output").ready (function(){
+                        $("output").fadeOut(5000);
+                    });
+                });
                 return true;
             }
             else {
